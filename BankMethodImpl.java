@@ -125,7 +125,7 @@ public class BankMethodImpl implements BankMethod {
             bal = r.getInt(1);
             customer1 = new Customer(bal);
 
-        }
+        
 
         System.out.println("ENTER AMOUNT TO WITHDRAW ");
         int amt = sc1.nextInt();
@@ -149,7 +149,10 @@ public class BankMethodImpl implements BankMethod {
             }
 
         }
-
+        }
+        else{
+            System.out.println("CHECK ACCOUNT NUMBER")
+            } 
         return false;
     }
 
